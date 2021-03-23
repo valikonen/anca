@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.full-container {
+    height: 10px;
+}
+.bg-green {
+    background: greenyellow;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.width-auto {
+    width: auto;
+    display: flex;
+    align-items: center;
+
+}
+.width-auto button {
+    margin: 0 10px;
+}
+#top-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: auto;
+    display: flex;
+}
+#top-menu li {
+    margin: 0 12px;
+}
+#top-menu a {
+    text-decoration: none;
+    color: darkgrey;
+}
+.pdf-btn {
+    background: url('./images/pdf.svg') no-repeat left center transparent;
+    border: none;
+    outline: none;
+    padding: 10px 0 10px 35px;
+}
