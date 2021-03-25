@@ -1,8 +1,8 @@
 
 for(var i = 0; i < 5; i++) {
-    setTimeout(function() {
+    setTimeout((function(1) {
         console.log('i: ', i)
-    }, 0);
+    })(i), 0);
 }
 
 function upperText(str) {
